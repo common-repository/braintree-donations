@@ -1,0 +1,95 @@
+body
+{
+	//background:#F00;
+}
+@font-face {
+	font-family: OpenSans;
+	src:url(../fonts/open-sans/OpenSans-Regular.ttf)
+}
+#login-box
+{
+	border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    height: 316px;
+    margin: 0 auto;
+    width: 40%;
+}
+#login-box-top
+{
+	height:48px;
+	background:#fbfbfb;
+	border-bottom:1px solid #e1e1e1;	
+	border-radius:5px;
+}
+#login-box-logo
+{
+	background: url("../images/logo.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+    height: 30px; margin: 0 auto;
+
+}
+#login-box-middle
+{
+	height:264px;
+	background:#f6f6f6;
+}
+#login-form
+{
+	margin:auto;
+	width:364px;
+	height:206px;
+	position:relative;
+	top:30px;
+}
+#name-text
+{
+	float: left;
+    height: 43px;
+    width: 363px;
+}
+#name
+{
+	float: left;
+    font-size: 14px;
+    height: 31px;
+    line-height: 31px;
+    width: 95px;
+	font-family: OpenSans;
+}
+#text
+{
+	width:364px;
+	height:31px;
+	font-family: OpenSans;
+}
+#radio
+{
+	font-family: OpenSans;
+    height: 31px;
+    margin-top: 5px;
+    width: 364px;
+}
+#textbox
+{
+	
+    background: none repeat scroll 0 0 #F6F6F6;
+    height: 30px;
+    width: 267px;
+
+}
+#form-btn
+{
+	background:#0074a2;
+	width:137px;
+	height:35px;
+	border-radius:3px;
+	border:0px;
+	font-family: OpenSans;
+	color:#FFF;
+}
+
+.radio {
+background-color:#F67D4B;
+color:#FF0;
+line-height:20px;
+margin-top:50px;
+}
